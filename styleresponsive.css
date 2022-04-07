@@ -1,9 +1,12 @@
-   
+body{
+    
+    width:100%;
+    margin: 0;
+}   
 main{
     background-color: black;
     padding: 10px;
-    display:flex;
-    flex-direction:column;
+  
 }
 header{
     background-color: rgb(64, 81, 228);
@@ -31,4 +34,34 @@ footer{
     background-color: grey;
     padding: 10px;
     margin-top: 3px;
+}
+
+
+
+@media screen and (min-width:750px) and (max-width: 1200px){
+        
+        .row{display: flex; flex-direction: row;}
+ }
+@media screen and (min-width:1200px){
+    main{
+        display:flex;
+        flex-direction:column;
+        background-color: white;
+        align-items:stretch;
+        
+    }
+    .wrap{
+        display:flex;
+        flex-wrap: wrap;
+    }
+    .row{
+        display: flex;
+        flex-direction: row;
+    }
+    .center{
+        margin-left: 30%;
+        margin-right: 30%;
+        
+    }
+    
 }
