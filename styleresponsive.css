@@ -38,11 +38,11 @@ footer{
 
 
 
-@media screen and (min-width:750px) and (max-width: 1200px){
+@media screen and (min-width:750px) and (max-width: 1024px){
         
         .row{display: flex; flex-direction: row;}
  }
-@media screen and (min-width:1200px){
+@media screen and (min-width:1024px){
     main{
         display:flex;
         flex-direction:column;
